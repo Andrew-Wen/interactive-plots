@@ -29,7 +29,7 @@ def plotly_scatter_plot_matrix(df, columns):
     fig.show()
     
     
- def single_plotly_plot(df, x, y, opacity=0.6, seperate=False):
+def single_plotly_plot(df, x, y, opacity=0.6, seperate=False):
     '''
     Generates an interacitve plot using plotly.
     
