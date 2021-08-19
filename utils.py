@@ -60,7 +60,7 @@ def single_plotly_plot(df, x, y, opacity=0.6, seperate=False):
                             color = 'label', 
                             hover_data = hover, 
                             opacity = opacity,
-                            color_discrete_sequence = colors[0]
+                            color_discrete_sequence = [colors[0]]
                            )
         fig1.update_layout(
                           {
@@ -75,7 +75,7 @@ def single_plotly_plot(df, x, y, opacity=0.6, seperate=False):
                             color = 'label', 
                             hover_data = hover, 
                             opacity = opacity,
-                            color_discrete_sequence = color[1]
+                            color_discrete_sequence = [colors[1]]
                          )
         fig2.update_layout(
                             {
